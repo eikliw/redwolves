@@ -22,7 +22,7 @@ p, li {
 .center-table {
   margin: 0 auto;
   border-collapse: separate; /* Add cell spacing */
-  border-spacing: 10px; /* Define cell spacing */
+  border-spacing: 5px; /* Define cell spacing */
 }
 
 /* Add padding to table cells for spacing */
