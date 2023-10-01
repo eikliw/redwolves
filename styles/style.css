@@ -3,28 +3,39 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-
 h1 {
   font-size: 60px;
   text-align: center;
 }
 
 p, li {
-  font-size: 16px;
+  font-size: 18px; /* Increased font size */
   line-height: 2;
   letter-spacing: 1px;
 }
 
+/* New CSS rules for centering and text size */
+.center-text {
+  text-align: center;
+}
+
+.center-table {
+  margin: 0 auto; /* Center the table horizontally */
+}
+
+.bigger-text {
+  font-size: 20px; /* Increased font size for the closing paragraph */
+}
 
 html {
   background-color: #000000;
 }
 
 body {
-  width: 600px;
+  max-width: 600px; /* Changed width to max-width for responsiveness */
   margin: 0 auto;
   background-color: #FFFFFF;
-  padding: 20px 20px 20px 20px;
+  padding: 20px;
   border: 5px solid;
   border-color: #73040A;
 }
@@ -33,7 +44,6 @@ h1 {
   margin: 0;
   padding: 20px 0;
   color: #73040A;
-  
 }
 
 img {
