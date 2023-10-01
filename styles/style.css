@@ -18,6 +18,9 @@ p, li {
 .center-text {
   text-align: center;
 }
+.center-container {
+  text-align: center;
+}
 
 .center-table {
   margin: 0 auto;
