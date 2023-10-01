@@ -9,7 +9,7 @@ h1 {
 }
 
 p, li {
-  font-size: 18px; /* Increased font size */
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 1px;
 }
@@ -20,11 +20,19 @@ p, li {
 }
 
 .center-table {
-  margin: 0 auto; /* Center the table horizontally */
+  margin: 0 auto;
+  border-collapse: separate; /* Add cell spacing */
+  border-spacing: 10px; /* Define cell spacing */
+}
+
+/* Add padding to table cells for spacing */
+.center-table th,
+.center-table td {
+  padding: 10px;
 }
 
 .bigger-text {
-  font-size: 20px; /* Increased font size for the closing paragraph */
+  font-size: 20px;
 }
 
 html {
@@ -32,7 +40,7 @@ html {
 }
 
 body {
-  max-width: 600px; /* Changed width to max-width for responsiveness */
+  max-width: 600px;
   margin: 0 auto;
   background-color: #FFFFFF;
   padding: 20px;
