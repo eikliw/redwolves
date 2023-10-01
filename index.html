@@ -52,6 +52,17 @@
   </table>
 
   <p class="center-text bigger-text">Made with ❤️ by Wyatt's dad</p>
+<!-- Back button -->
+  <button id="backButton">Click here to go back.</button>
 
+  <script>
+    // Function to go back when the button is clicked
+    function goBack() {
+      window.history.back();
+    }
+
+    // Add an event listener to the button
+    document.getElementById('backButton').addEventListener('click', goBack);
+  </script>
 </body>
 </html>
